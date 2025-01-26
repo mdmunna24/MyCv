@@ -1,0 +1,575 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{margin: 0; padding: 0;}
+
+body { font-family: 'Work Sans', sans-serif;
+    font-size: 16px; }
+
+ h1,h2,h3,h4,h5,h6{ font-family: 'Oswald', sans-serif; font-weight: 500; }
+
+section{padding: 20px 0px;}
+     
+/* First Menu  "Website Design Part 01" suru*/
+
+.primaryMenu {
+    position: sticky;
+    top: 0;
+    background: #fff;
+}
+
+header#topBar {
+    position: sticky;
+    top: -41px;
+    z-index: 999;
+}
+        
+.topBarMain { background: #f5f5f5; }
+        
+.container {
+            width: 1140px;
+            padding-left: 15px; 
+            padding-right: 15px; 
+            margin: auto; }
+            
+.topbarWrapper { overflow: hidden; }
+        
+.phone {
+                width: 252px;
+                float: left;
+                padding: 8px 7px;
+                border-right: 1px solid #ddd;
+                border-left: 1px solid #ddd;
+                }
+            
+.Emali {
+    width: 700px;
+    float: left;
+    padding: 8px 7px;
+    }
+.Emali a {
+        color: black;
+        text-decoration: none;
+}
+            
+.Social {
+                width: 119px;
+                float: left;
+                transition: .3s;
+                }
+        
+.Social a {
+                display: block;
+                float: left;
+                padding: 9px;
+                border-right: 1px solid #ddd;
+                color: #2b2b2b; }
+        
+.Social i:hover{ color: #1BBFb8; }
+        
+.Social a:first-child{ border-left:1px solid #ddd;}
+        
+.phone i {color: #FF5200;margin-right: 4px;font-size: 20px;}
+            
+.Emali i {color: #FF5200;margin-right: 7px;}
+
+/* First Menu header "Website Design Part 01"ses*/
+        
+/* 2nd Menu "Website Design Part 02" suru*/
+
+        
+.primaryWrapper {
+    overflow: hidden;
+    width: 100%; }
+
+
+.logo {width: 150px;float: left; margin-top: 10px; }
+            
+.menu {
+                width: 990px;
+                float: left; }
+            
+ul.mainMenuItem {
+                list-style: none;
+                float: right; }
+            
+ul.mainMenuItem li { float: left; }
+            
+ul.mainMenuItem li a {
+                text-decoration: none;
+                font-family: 'Work Sans', sans-serif;
+                display: block;
+                padding: 25px 12px;
+                color: #0C0400;
+                font-weight: 500;
+                transition: .3s;
+}
+        
+ul.mainMenuItem li a:hover{background: #1BBFb8; color: white;}
+
+i.fas.fa-user-circle {
+    font-size: 29px;
+    margin-top: -6px;
+}
+
+/* 2 Nd "Website Design Part 02" ses*/
+
+/* Header ses*/
+/* section suru*/
+
+        
+/* homeSlider "Website Design Part 03" suru*/
+        
+#homeSlider{
+    background: linear-gradient(#00000020, #00000020), url(../image/3.jpg);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+    padding: 0;
+}
+
+.sliderContant h1 {
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+    margin-top: 110px;
+    float: left;
+    width: 600px;
+}
+
+.sliderContant {
+    width: 600px;
+    color: white;
+    height: 478px;
+    }
+
+.sliderContant p {
+        font-weight: 600;
+        line-height: 24px;
+        font-size: 20px;
+        width: 530px;
+        padding: 80px 0px;
+}
+
+#sliderBTN {
+    background: #ff5200;
+    color: white;
+    border: none;
+    padding: 7px 15px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 550;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+#sliderBTN:hover {
+    background: #1bbfb8;
+    transition: .2s;
+    cursor: pointer;
+}
+
+#sliderBTN i {
+margin-left: 5px;
+}
+
+
+
+.SliderNav span:first-child{ background: #FF5200; border-color: #FF5200;}
+
+/* homeSlider "Website Design Part 03" ses*/
+
+/* about me suru*/       
+.aboutContant {overflow: hidden;}
+
+.AboutMeTitle {
+    text-align: center;
+    font-size: 23px;
+    text-transform: uppercase;
+}
+
+.aboutImg {
+                width: 450px;
+                float: left;
+                transition: 0.3s;
+                margin-top: 25px;
+}
+        
+.aboutImg img {
+                max-width: 100%;
+}
+
+.aboutImg:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+            
+.aboutdes {
+                width: 620px;
+                float: right;
+                margin-top: 10px;
+}
+        
+.my.contant h2 {
+                font-size: 33px;
+                margin-bottom: 20px;
+                text-transform: uppercase;
+}
+            
+.my.contant p {
+                font-size: 18px;
+                margin-bottom: 15px;
+                text-align: justify;
+                word-spacing: -3px;
+                line-height: 25px;
+}
+.my.contant h3 {
+                font-size: 29px;
+                padding-top: 6px;
+                padding-bottom: 12px;
+}
+            
+.my.contant h6 {
+                font-size: 17px;
+                font-weight: 600;
+                overflow: hidden;
+                float: left;
+                margin-right: 20px;
+}
+/* About me suru */
+
+/* Education and skills suru */
+
+/* SkillDateils suru */
+.SkillDateils {
+    overflow: hidden;
+    float: left;
+    width: 685px;
+    margin-right: 40px;
+    border: 1px solid #ddd;
+}
+
+.SkillDateils h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+
+.Skills-area{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.skill{
+    position: relative;
+    margin-bottom: 20px;
+}
+.skill-title{
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+.skill-bar{
+    width: 100%;
+    background: #f7f7f7;
+    height: 35px;
+    z-index: -1;
+    border-radius: 7px;
+    position: absolute;
+}
+.skill-fill{
+    background: #1bbfb8;
+    height: 35px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 15px;
+    overflow: hidden;
+}
+.skill-percent{
+    font-size: 30px;
+    color: white;
+}
+
+
+
+.WordPress {
+    animation: WordPress 4s;
+    width:92%;
+}
+.HtmlCss  {
+    animation: HtmlCss 4s;
+    width : 90%;
+}
+.js {
+    animation:js 4s;
+    width: 85%;
+}
+.jQ {
+    animation:jQ 4s;
+    width: 75%;
+}
+.BT {
+    animation:BT 4s;
+    width: 75%;
+}
+.PHP {
+    animation:PHP 4s;
+    width: 65%;
+}
+
+
+
+
+@keyframes WordPress{
+    0%{ width: 0%;}
+    
+    100%{width: 92%;}
+}
+@keyframes HtmlCss{
+    0%{width: 0%;}
+
+    100%{width: 90%;}
+}
+@keyframes js {
+    0%{width: 0%;}
+
+    100%{width: 85%;}
+}
+@keyframes jQ {
+    0%{width: 0%;}
+
+    100%{width: 75%;}
+}
+@keyframes BT {
+    0%{width: 0%;}
+
+    100%{width: 75%;}
+}
+@keyframes PHP {
+    0%{width: 0%;}
+
+    100%{width: 65%;}
+}
+/* SkillDateils ses */
+
+
+.EduSkills{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+}
+.SkillWrapper {
+    overflow: hidden;
+}
+
+.Education {
+    overflow: hidden;
+    float: left;
+    width: 470px;
+    background: #f7f7f7;
+    border: 1px solid #ddd;
+}
+.Education h2 {
+    text-align: center;
+    font-size: 40px;
+}
+.div1 {margin: 20px 20px}
+.div2 {margin: 40px 20px;}
+.div3 { margin: 25px 20px;}
+
+.div1 h3 {margin-top: 10px;}
+.div2 h3 {margin-top: 10px;}
+.div3 h3 {margin-top: 10px;}
+/* Education ses */
+/* Education and skills ses */
+
+/* My Experience suru */
+/* Main Title suru */
+.SecTitle {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.SecTitle h2 {
+    font-size: 39px;
+    margin-bottom: 5px;
+    position: relative;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.SecTitle h2:after {
+content: "";
+position: absolute;
+bottom: 0;
+background: #ff5200;
+width: 80px;
+border-bottom: 3px solid #ff5200;
+left: 50%;
+transform: translatex(-50%);
+}
+
+.SecTitle p {
+    width: 550px;
+    margin: auto;
+    line-height: 23px;
+    font-size: 17px;
+    color: #666;
+}
+/* Main Title ses */
+
+.ExpWrapper {
+    overflow: hidden;
+}
+
+.single.box {
+    overflow: hidden;
+    float: left;
+    width: 555px;
+    margin-right: 20px;
+    background: #f7f7f7;
+    margin-bottom: 30px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.single.box:last-child{
+    margin-right: 0px;
+}
+.single.box:nth-child(2) {
+    margin-right: 0px;
+}
+.single.box h3 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 5px 15px;
+}
+
+.single.box p {
+    font-size: 17px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    padding: 5px 15px;
+}
+.single.box span {
+    padding: 5px 15px;
+}
+/* My Experience ses */
+
+/* footer suru */
+
+footer#footer {
+    background: #222;
+    padding-top: 110px;
+}
+
+.footerWrapper {
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+.footerWrapper h2 {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.footerLogo {
+    overflow: hidden;
+    float: left;
+    width: 270px;
+    margin-right: 10px;
+}
+
+.footerAboutUs {
+    overflow: hidden;
+    float: left;
+    width: 270px;
+    margin-right: 25px;
+    color: #ddd;
+}
+
+.footerAboutMe {
+    color: #ddd;
+    overflow: hidden;
+    float: left;
+    width: 270px;
+    margin-right: 25px;
+}
+
+.footerfollowUs {
+    overflow: hidden;
+    float: left;
+    color: #ddd;
+    width: 270px;
+}
+
+.footerLogo img {
+    margin-top: 50px;
+    width: 99%;
+}
+.footerfollowUs h2 {margin-left: 15px;}
+
+.footerIcon {
+    display: inline-block;
+}
+
+.footerIcon a i {
+    font-size: 31px;
+    margin-left: 12px;
+}
+
+.footerIcon a:first-child {
+    color: #1374ea;
+}
+.footerIcon a:nth-child(2) {
+    color: #08baff;
+}
+.footerIcon a:nth-child(3) {
+    color: #FF0000;
+}
+.footerIcon a:nth-child(4) {
+    color: #0e76a8;
+}
+.footerIcon a:nth-child(5) {
+    color: #29b438;
+}
+.footerIcon a:last-child {
+    color: #00aff0 ;
+
+}
+/* footer ses */
+
+/* copyRightContant suru */
+
+.copyRightContant {
+    color: #999;
+    border-top: 1px solid #333;
+    text-align: center;
+    padding: 15px 0px;
+    background: #0d0d0d;
+}
+
+.copyRight_1 {
+    overflow: hidden;
+    float: left;
+    margin-left: 8px;
+}
+
+.copyRight_2 {
+    display: inline-block;
+}
+
+.copyRight_2 p {
+    float: left;
+    margin-left: 600px;
+    color: #1BBFb8;
+}
+/* copyRightContant ses */

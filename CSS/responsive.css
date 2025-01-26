@@ -1,0 +1,82 @@
+@media (max-width: 767px) {
+
+  .topBarMain {
+      display: none;
+  }
+    
+  /*
+    .menu {
+    float: none;
+}
+
+ul.mainMenuItem {
+    float: none;
+}
+
+ul.mainMenuItem li {
+    float: none;
+}
+ul.mainMenuItem li:first-child {
+    margin-top: 60px
+}
+  
+  
+  
+  
+  
+  
+  */
+    
+  .footerWrapper {
+    margin-bottom: 25px;
+}
+
+.footerLogo {
+    float: none;
+    display: none;
+}
+
+.footerAboutUs {
+    float: none;
+}
+
+.footerAboutMe {
+    float: none;
+}
+
+.footerfollowUs {
+    float: none;
+    width: 100%;
+    margin: auto;
+}
+
+footer#footer {
+    padding-top: 50px;
+}
+
+.footerAboutUs {
+    overflow: visible;
+    width: 54%;
+    text-align: center;
+}
+
+.footerAboutMe {
+    overflow: visible;
+    width: 54%;
+    text-align: center;
+}
+
+.footerfollowUs {
+    overflow: visible;
+    width: 26%;
+    text-align: center;
+    margin: auto;
+}
+
+section#FAQ {
+    margin: auto;
+}
+
+
+    
+  }

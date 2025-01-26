@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+*{margin: 0; padding: 0;}
+
+body { font-family: 
+    'Montserrat', sans-serif;
+    font-size: 16px; 
+}
+
+ h1,h2,h3,h4,h5,h6{ font-family: 'Montserrat', sans-serif; font-weight: 500; }
+
+section{padding: 20px 0px;}
+     
+        
+/* 2nd Menu "Website Design Part 02" suru*/
+
+.container {
+    width: 1140px;
+    padding-left: 15px; 
+    padding-right: 15px; 
+    margin: auto; }
+
+.primaryWrapper {
+    overflow: hidden;
+    width: 100%; }
+
+
+.logo {width: 150px;float: left; margin-top: 10px; }
+
+.TopbarText {
+    overflow: hidden;
+    float: right;
+    margin-top: 25px;
+    margin-right: 90px;
+}  
+
+.TopbarText a {
+    color: #1bbfb8;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.TopbarText a i {
+    margin-right: 8px;
+    font-size: 17px;
+}
+
+/* Header ses*/
+
+/* Section Suru*/
+
+/* Contact me Suru*/
+
+section#ContactMe {
+    background: #f7f7f7;
+}
+
+.SecTitle {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.SecTitle h2 {
+    font-size: 39px;
+    margin-bottom: 5px;
+    position: relative;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #1bbfb8;
+}
+
+.SecTitle h2:after {
+content: "";
+position: absolute;
+bottom: 0;
+background: #1bbfb8;
+width: 80px;
+border-bottom: 3px solid #1bbfb8;
+left: 50%;
+transform: translatex(-50%);
+}
+/* Section Title ses*/
+
+.CONTimage {
+    overflow: hidden;
+    float: left;
+    margin-right: 100px;
+}
+
+.CONTwrapper {
+    overflow: hidden;
+    width: 1080px;
+    margin: auto;
+}
+
+.locationAddress {
+    background: #f7f7f794;
+    overflow: hidden;
+    float: left;
+}
+
+.singlelocation {
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.locationLogo {
+    overflow: hidden;
+    float: left;
+}
+
+.locationDateils {
+    overflow: hidden;
+    float: left;
+}
+
+.locationLogo i {
+    font-size: 40px;
+    margin-right: 20px;
+    margin-top: 10px;
+    color: #1bbfb8;
+}
+
+.locationDateils h2 {
+    font-size: 29px;
+    color: #1bbfb8;
+}
+
+.locationDateils p {
+    font-size: 20px;
+    padding: 5px 0px;
+    color: #1bbfb8;
+}
+.Info h2 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.Info {
+    background: #1bbfb8;
+}
+.FollowMe h2 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #1bbfb8;
+}
+
+.CNTicon {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.CNTicon a {
+    font-size: 33px;
+    padding: 0px 5px;
+}
+
+.CNTicon a:first-child {
+    color: #3b5998;
+}
+.CNTicon a:nth-child(2) {
+    color: #00acee;
+}
+.CNTicon a:nth-child(3) {
+    color: #FF0000;
+}
+.CNTicon a:nth-child(4) {
+    color: #0e76a8;
+}
+.CNTicon a:nth-child(5) {
+    color: #29b438;
+}
+.CNTicon a:last-child {
+    color: #00aff0 ;
+}
+/* Contact me ses*/
+
+/* contact Box suru*/
+.EduSkills {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+}
+.topContant {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #1bbfb8;
+}
+
+.BoxWrapper {overflow: hidden;}
+.Box{
+    width: 700px;
+    padding: 11px;
+    overflow: hidden;
+    float: right;
+    border: 1px solid #ddd;
+}
+
+.Box input {
+    display: block;
+    width: 97%;
+    background: #f7f7f7;
+    margin-bottom: 18px;
+    padding: 12px;
+    border: none;
+    outline-color: #ddd;
+    font-size: 15px;
+}
+
+input.submitBtn {
+    width: 21%;
+    font-size: 19px;
+    margin-left: 39%;
+    background: #ff5200;
+    color: white;
+    border-radius: 4px;
+}
+
+input.submitBtn:hover {
+    cursor: pointer;
+    background: #1bbfb8;
+    color: white;
+    transition: 0.3s;
+}
+
+
+textarea {
+    display: block;
+    background: #f7f7f7;
+    padding: 12px;
+    border: none;
+    outline-color: #ddd;
+    font-size: 15px;
+    font-family: 'Work Sans';
+    max-width: 97%;
+    height: 140px;
+    margin-bottom: 35px;
+    width: 100%;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+.ContantBox {
+    overflow: hidden;
+    float: left;
+    width: 460px;
+    border: 1px solid #ddd;
+    background: #f7f7f7;
+    height: 462px;
+}
+
+.ContantBox h1 {text-align: center;padding: 13px 0px;}
+
+.ContantBox h3 {
+    margin: 10px 10px;
+}
+
+.ContantBox p {
+    padding: 10px 14px;
+    font-size: 17px;
+    text-align: justify;
+}
+.ContantBox span {
+    margin-left: 10px;
+    font-size: 18px;
+}
+.ContantBox span a {
+    color: #1bbfb8;
+    font-size: 17px;
+}
+/* contact Box ses*/
+
+/* Map suru*/
+.MapBox{
+    width : 1250px;
+    margin : auto;
+}
+/* Map ses*/
+
+/* copyRightContant suru */
+
+.copyRightContant {
+    color: #999;
+    border-top: 1px solid #333;
+    text-align: center;
+    padding: 15px 0px;
+    background: #0d0d0d;
+}
+
+.copyRight_1 {
+    overflow: hidden;
+    float: left;
+    margin-left: 8px;
+}
+
+.copyRight_2 {
+    display: inline-block;
+}
+
+.copyRight_2 p {
+    float: left;
+    margin-left: 590px;
+    color: #1BBFb8;
+}
+/* copyRightContant ses */

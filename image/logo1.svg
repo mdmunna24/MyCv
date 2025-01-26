@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="203" height="59" viewBox="0 0 203 59">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 30.814px;
+        fill: #fe5200;
+      }
+
+      .cls-1, .cls-2 {
+        font-family: "Bauhaus 93";
+      }
+
+      .cls-2 {
+        font-size: 26.755px;
+        fill: #1bbfb8;
+      }
+
+      .cls-3 {
+        font-size: 29px;
+        fill: #0c0400;
+        font-family: "Rockwell Extra Bold";
+      }
+    </style>
+  </defs>
+  <image id="Background" width="203" height="59" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMsAAAA7CAYAAADVaX4qAAAAuUlEQVR4nO3TAQ0AIAzAsIN/z0cCE9BKWLKzuzvA15UIGrNAZBaIzAKRWSAyC0RmgcgsEJkFIrNAZBaIzAKRWSAyC0RmgcgsEJkFIrNAZBaIzAKRWSAyC0RmgcgsEJkFIrNAZBaIzAKRWSAyC0RmgcgsEJkFIrNAZBaIzAKRWSAyC0RmgcgsEJkFIrNAZBaIzAKRWSAyC0RmgcgsEJkFIrNAZBaIzAKRWSAyC0RmgcgsEJkFIrNAMTMPnRwEcklAV3QAAAAASUVORK5CYII="/>
+  <text id="Mohy" class="cls-1" transform="translate(1.442 35.735) scale(1.201)">Mohy</text>
+  <text id="minul" class="cls-2" transform="translate(90.875 36.114) scale(1.383)">minul</text>
+  <text id="Web_Doctor" data-name="Web Doctor" class="cls-3" transform="translate(92.437 52.652) scale(0.497)">Web Doctor</text>
+</svg>
